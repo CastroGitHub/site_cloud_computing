@@ -1,14 +1,10 @@
 # Galeria de Trabalhos - Cloud Computing
 
-Exposicao dos trabalhos da turma FATEC 5o Semestre - Cloud Computing
-
----
+Exposicao dos trabalhos da turma FATEC 5º Semestre - Cloud Computing
 
 ## Como Adicionar Seu Trabalho
 
 Siga o passo a passo abaixo para adicionar seu trabalho a galeria.
-
----
 
 ### Passo 1: Fazer Fork do Repositorio
 
@@ -20,8 +16,6 @@ O **fork** cria uma copia do repositorio na sua conta do GitHub.
 4. Aguarde a copia ser criada
 
 Apos o fork, voce tera uma copia do repositorio em `https://github.com/SEU_USUARIO/nome-do-repositorio`
-
----
 
 ### Passo 2: Clonar o Repositorio para sua Maquina
 
@@ -38,8 +32,6 @@ Entre na pasta do projeto:
 ```bash
 cd nome-do-repositorio
 ```
-
----
 
 ### Passo 3: Criar seu Arquivo HTML
 
@@ -79,17 +71,13 @@ Os templates estao na pasta `templates/`:
 
 **Dica:** Consulte o arquivo `trabalhos/lucasF.html` como exemplo de referencia.
 
----
-
-### Estilizando seu Trabalho com Tailwind CSS
+#### Estilizando seu Trabalho com Tailwind CSS
 
 O template utiliza **Tailwind CSS** para estilizacao, ja incluido via CDN.
 
 Tailwind e um framework CSS utilitario onde voce aplica classes diretamente nos elementos HTML em vez de escrever CSS tradicional.
 
 **Documentacao oficial:** [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
-
----
 
 ### Passo 4: Registrar seu Trabalho no index.html
 
@@ -124,8 +112,6 @@ Se seu arquivo e `lucas.html`, adicione:
 { id: 'lucas', nome: 'Lucas Ferreira Nogueira' },
 ```
 
----
-
 ### Passo 5: Testar Localmente
 
 Antes de enviar, teste se tudo esta funcionando:
@@ -133,8 +119,6 @@ Antes de enviar, teste se tudo esta funcionando:
 1. Abra o arquivo `index.html` no navegador
 2. Verifique se seu card aparece na galeria
 3. Clique no seu card e confirme se seu trabalho abre corretamente
-
----
 
 ### Passo 6: Fazer Commit e Push
 
@@ -145,8 +129,6 @@ git add .
 git commit -m "Adiciona trabalho de [Seu Nome]"
 git push origin main
 ```
-
----
 
 ### Passo 7: Abrir Pull Request
 
@@ -159,7 +141,7 @@ O **Pull Request (PR)** solicita que suas alteracoes sejam incorporadas ao repos
    *Ou acesse a aba "Pull requests" e clique em "New pull request"*
 
 3. Verifique se esta comparando:
-   - **base repository:** repositorio original (do professor)
+   - **base repository:** repositorio original
    - **head repository:** seu fork
    - **base:** main ← **compare:** main
 
@@ -171,7 +153,7 @@ O **Pull Request (PR)** solicita que suas alteracoes sejam incorporadas ao repos
 
 6. Clique em **"Create pull request"** para finalizar
 
-Aguarde a revisao e aprovacao do professor.
+Aguarde a revisao e aprovacao
 
 ---
 
@@ -186,7 +168,6 @@ atividade_site/
 │   ├── template-timeline.html  <- Linha do tempo
 │   └── template-minimal.html   <- Minimalista
 └── trabalhos/
-    ├── template.html       <- Template antigo (use os da pasta templates/)
     ├── lucasF.html         <- Exemplo de referencia
     └── seuNome.html        <- Seu trabalho (criar)
 ```
